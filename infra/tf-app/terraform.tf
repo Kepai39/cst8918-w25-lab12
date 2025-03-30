@@ -28,6 +28,7 @@ provider "azurerm" {
 variable "collegeId" {
   type        = string
   description = "Your college username. This will form the beginning of various resource names."
+  default     = "daig0104"
 }
 variable "region" {
   type        = string
