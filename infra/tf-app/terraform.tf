@@ -20,7 +20,7 @@ terraform {
 
 # Define providers and their config params
 provider "azurerm" {
-  # Leave the features block empty to accept all defaultsasdadas
+  # Leave the features block empty to accept all default
   features {}
   use_oidc = true
 }
