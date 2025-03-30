@@ -10,10 +10,11 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = "ehre0004-githubactions-rg"
-    storage_account_name = "ehre0004githubactions1"
+    resource_group_name  = "daig0104-githubactions-rg"
+    storage_account_name = "daig0104githubactions"
     container_name       = "tfstate"
     key                  = "prod.app.tfstate"
+    use_oidc             = true
   }
 }
 
@@ -21,6 +22,7 @@ terraform {
 provider "azurerm" {
   # Leave the features block empty to accept all defaults
   features {}
+  use_oidc = true
 }
 
 variable "collegeId" {
