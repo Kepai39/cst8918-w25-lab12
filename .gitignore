@@ -29,3 +29,6 @@
 .vscode
 .idea
 .idea
+# Other files
+*.ps1
+*.lock.*

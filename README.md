@@ -2,6 +2,7 @@
 
 ## Students
 
-| Catherine Daigle | 41175118  |
-| ---------------- | --------- |
-| Rae Ehret        | 040907812 |
+| Name             | Student ID |
+| ---------------- | ---------- |
+| Catherine Daigle | 41175118   |
+| Rae Ehret        | 040907812  |
