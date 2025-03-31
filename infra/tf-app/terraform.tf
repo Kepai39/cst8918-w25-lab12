@@ -40,6 +40,9 @@ variable "region" {
 resource "azurerm_resource_group" "lab12" {
   name     = "${var.collegeId}-a12-rg"
   location = var.region
+  tags = {
+    environment = "Production"
+  }
 }
 
 output "resource_group_name" {
