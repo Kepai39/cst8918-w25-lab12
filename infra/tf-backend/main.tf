@@ -14,7 +14,7 @@ terraform {
 
 # Define providers and their config params
 provider "azurerm" {
-  # Leave the features block empty to accept all defaults
+  # Leave the features block empty to accept all defaults sadasds
   features {}
 }
 
